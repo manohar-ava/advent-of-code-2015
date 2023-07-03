@@ -1,3 +1,6 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
 mod days;
 extern crate regex;
 fn main() {
@@ -11,5 +14,8 @@ fn main() {
     // days::day8::solution();   
     // days::day9::solution();  
     // days::day10::solution();
-    days::day11::solution();
+    // days::day11::solution();
+    // days::day14::solution();
+    // days::day15::solution();
+    days::day16::solution();
 }

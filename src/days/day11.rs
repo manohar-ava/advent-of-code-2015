@@ -39,7 +39,7 @@ fn increment_once(string: &String) -> String {
         };
     }
 
-    if index >= 0 && !updated_last {
+    if !updated_last {
         ascii_char_vals[index] += 1;
     }
     let str:Vec<String> = ascii_char_vals.into_iter().map( |x|  String::from( x as char )).collect();
